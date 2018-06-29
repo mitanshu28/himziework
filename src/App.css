@@ -1,0 +1,326 @@
+
+.card{
+  position: relative;
+  border: 0.5px solid white;
+box-shadow: 0px 0.2px 0.2px #000000;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(0.7); 
+  box-sizing: border-box;
+  height: 10.2rem;
+  background:white;
+  width:36.2rem;
+ overflow: hidden;
+}
+.img{
+position: absolute;
+margin-top:-230px;
+margin-left: 90px;
+opacity: 0.1;}
+#txt1{
+  color:white;
+margin-top: -28px;
+margin-left: 40px;
+}
+#h2{
+  text-align: left;
+  color: white;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 30px;
+font-style: normal;
+font-weight: bold;
+margin-left: 40px;
+margin-top: 38px;
+}
+img{
+  margin-top:-120px;
+  margin-left: 30px;
+  width: 1300px;
+  height: 140px;
+}
+.head1{
+  border: 1px solid black;
+  width: 1290px;
+  height: 130px;
+  position: absolute;
+  margin-left: 80px;
+ background-color:#522463;
+}
+.pagination {
+  position: absolute;
+  margin-top: 600px;
+  display:flex;
+  justify-content: center;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+.pagination button {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.pagination button.active {
+  background-color: #337ab7;
+  color: white;
+  border: 1px solid #337ab7;
+}
+
+.pagination button:hover:not(.active) {background-color: white;}
+
+.pagination button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  .pagination button {
+      padding: 10px 16px;
+  }
+}
+
+#c{
+  position: absolute;
+  font-weight: lighter;
+  margin-top: 70px;
+  margin-left: 15px;
+  font-size: 20px;
+color: #797979;
+  line-height: 2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#b{
+  position: static;
+  margin-top: 109px;
+  font-size: 18px;
+  margin-left:17px;
+  line-break: loose;
+  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#5A5A5A;
+}
+.b:hover{
+word-break: break-all;
+word-wrap: break-word;
+white-space: pre-wrap;
+}
+.head2{
+  border: 1px solid white;
+  position: absolute;
+  margin-top: 160px;
+  width: 850px;
+  height: 50px;
+  background: white;
+  margin-left: 80px;
+}
+.head3{
+  border: 1px solid white;
+  position: absolute;
+  margin-top: 160px;
+  height: 50px;
+  width: 407px;
+  background: white;
+  margin-left: 960px;
+}
+.pagination li {
+  display:inline-block;
+  padding:5px;
+}
+
+.card:hover{
+position: static;
+overflow: auto;
+  box-shadow: 0px 1px 20px #000000;
+  z-index: 2;
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(0.75);
+  -ms-transition: all 300ms ease-in;
+  -ms-transform: scale(0.75);   
+  -moz-transition: all 300ms ease-in;
+  -moz-transform: scale(0.75);
+  transition: all 300ms ease-in;
+  transform: scale(0.75);
+  
+}
+.circle::before{
+  content: ' \25CF';
+  position: absolute;
+  margin-top: -65px;
+  margin-left:-30px;
+  font-size: 165px;
+  color:#DEDDDD;
+  opacity: 0.6;
+ 
+}
+.h1{
+  font-family:Roboto, Helvetica, sans-serif;
+  position: static;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  margin: -2px 0 0 1rem;
+  font-size: 1.1rem;
+  color:black;
+  border-radius: 10px;
+}
+
+.j1{
+  border-radius: 50%;
+}
+.text2{
+  position: absolute;
+  margin-top: 23px;
+  margin-left:10px;
+  font-size: 28px;
+  color: black;
+text-transform: capitalize;
+  font-weight: lighter;
+}
+.text3{
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 2px;
+ 
+  font-size: 28px;
+  color: black;
+  font-weight: lighter;
+}
+.j2{
+  position: absolute;
+ margin-left: 210px;
+ font-size: 16px;
+}
+.j{
+  font-weight: lighter;
+  position: absolute;
+  margin-top:25px;
+ margin-left: 60px;
+ font-size: 23.5px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: wheat;
+}
+.pagination {
+  display: inline-block;
+  position: absolute;
+  margin-top: 500px;
+margin-left: 550px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: grey;
+  color: white;
+}
+.btn{
+  position: absolute;
+  margin-top:400px;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.container{
+    display: grid;
+    grid-template-columns: 24.6% 24% 24%;
+    grid-template-rows: 3% 3% 3% ;  
+  grid-gap: 1.1%;
+  margin-left: -8px;
+position: absolute; 
+margin-bottom: 0px;
+margin-top:220px;
+margin-right: 140px;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+@media only screen and (max-width: 500px) and (min-width: 200px) {
+ .container{
+   transform: scale(1.2);
+   display: grid;
+   grid-template-columns: 10% 10% 10%;
+   grid-template-rows: 10% 10% 10% ;  
+ grid-gap: 14.3%;
+ margin-left: 20px;
+position: absolute;
+border: 1px solid black;
+margin-bottom: 12px;
+margin-top: 350px;
+    padding: 5px 5px;
+  }
+  .card{
+    padding:7px;
+    box-sizing: border-box;
+    height: 12.5rem;
+    background:white;
+    width:10rem;
+    overflow: hidden;
+  
+  
+  }
+
+}
+@media only screen and (max-width: 900px) and (min-width: 500px) {
+  .container{
+    transform: scale(1.2);
+    display: grid;
+    grid-template-columns: 23% 23% 23%;
+    grid-template-rows: 15% 15% 15% ;  
+  grid-gap: 13.3%;
+  margin-left: 10px;
+ position: absolute;
+ border: 1px solid black;
+ margin-bottom: 12px;
+ margin-top: 350px;
+     padding: 5px 5px;
+   }
+   .card{
+     padding:7px;
+     box-sizing: border-box;
+     height: 12.5rem;
+     background:white;
+     width:13rem;
+     overflow: hidden;
+   
+   
+   }
+ 
+ }
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
